@@ -1,6 +1,12 @@
 /* BASE RESET */
 * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', sans-serif; }
-body { background: #f0f0f0; color: #222; transition: 0.3s; }
+body { 
+  background: #f0f0f0; 
+  color: #222; 
+  transition: 0.3s; 
+  font-size: 14px;
+}
+
 .container { display: flex; min-height: 100vh; }
 
 /* SIDEBAR */
@@ -67,3 +73,6 @@ body.dark .link-card { background: #3a3a3a; color: #f1f1f1; }
 /* DARK MODE */
 body.dark { background: #121212; color: #f1f1f1; }
 
+h2 {
+  font-size: 10px;
+}
