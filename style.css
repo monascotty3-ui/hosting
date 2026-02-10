@@ -4,7 +4,7 @@ body {
   background: #f0f0f0; 
   color: #222; 
   transition: 0.3s; 
-  font-size: 14px;
+  font-size: 10px;
 }
 
 .container { display: flex; min-height: 100vh; }
@@ -29,7 +29,8 @@ body.dark .sidebar { background: #2c2c2c; color: #f1f1f1; }
 .profile-card { text-align: center; }
 
 .profile-pic {
-  width: 120px; height: 120px;
+  width: 120px; 
+  height: 120px;
   border-radius: 50%;
   object-fit: cover;
   margin-bottom: 15px;
@@ -37,11 +38,11 @@ body.dark .sidebar { background: #2c2c2c; color: #f1f1f1; }
 }
 .sidebar button {
   padding: 10px 15px;
-  font-size: larger;
   font-weight: bold;
   border: none; border-radius: 12px;
   cursor: pointer; background: #007bff;
-  color: #fff; font-size: 14px;
+  color: #fff; 
+  font-size: 11px;
   transition: 0.3s;
 }
 .sidebar button:hover { background: #0056b3; }
@@ -75,7 +76,8 @@ body.dark .link-card { background: #3a3a3a; color: #f1f1f1; }
 body.dark { background: #121212; color: #f1f1f1; }
 
 h2 {
-  font-size: 16px;
+  font-size: 11px;
 }
 
-
+p {
+  font-size: 8px;
